@@ -1,16 +1,13 @@
 title: SeongHyeon
 lang: en
-description: SeongHyeonP GitHub Pages
-
-## remote method ##
-#remote_theme: rundocs/jekyll-rtd-theme
+description: Just another documentation theme compatible with GitHub Pages
 
 theme: null
 
-#debug:
-#  compress: false
-#  dist: true
-#  shortcodes: true
+# debug:
+#   compress: true
+#   dist: false
+#   shortcodes: true
 
 readme_index:
   with_frontmatter: true
@@ -19,15 +16,6 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
-#  - jekyll-coffeescript
-#  - jekyll-default-layout
-#  - jekyll-gist
-#  - jekyll-github-metadata
-#  - jekyll-optional-front-matter
-#  - jekyll-paginate
-#  - jekyll-readme-index
-#  - jekyll-titles-from-headings
-#  - jekyll-relative-links
 
 exclude:
   - Makefile
