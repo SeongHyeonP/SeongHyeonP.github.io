@@ -1,16 +1,16 @@
-title: SeongHyeonP.github.io
+title: SeongHyeon
 lang: en
 description: SeongHyeonP GitHub Pages
 
 ## remote method ##
 #remote_theme: rundocs/jekyll-rtd-theme
 
-theme: jekyll-rtd-theme
+theme: null
 
-debug:
-  compress: false
-  dist: true
-  shortcodes: true
+#debug:
+#  compress: false
+#  dist: true
+#  shortcodes: true
 
 readme_index:
   with_frontmatter: true
@@ -19,15 +19,15 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
-  - jekyll-coffeescript
-  - jekyll-default-layout
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-optional-front-matter
-  - jekyll-paginate
-  - jekyll-readme-index
-  - jekyll-titles-from-headings
-  - jekyll-relative-links
+#  - jekyll-coffeescript
+#  - jekyll-default-layout
+#  - jekyll-gist
+#  - jekyll-github-metadata
+#  - jekyll-optional-front-matter
+#  - jekyll-paginate
+#  - jekyll-readme-index
+#  - jekyll-titles-from-headings
+#  - jekyll-relative-links
 
 exclude:
   - Makefile
@@ -43,4 +43,4 @@ exclude:
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
 
-github: [metadata]
+#github: [metadata]
