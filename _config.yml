@@ -1,10 +1,12 @@
-title: jekyll-rtd-theme
-description: Just another documentation theme compatible with GitHub Pages
+title: SeongHyeonP.github.io
+lang: en
+description: SeongHyeonP GitHub Pages
 
-theme: null
+## remote method ##
+remote_theme: rundocs/jekyll-rtd-theme
 
-# debug:
-#   compress: true
+#debug:
+#   compress: false
 #   dist: false
 #   shortcodes: true
 
