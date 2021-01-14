@@ -43,4 +43,4 @@ exclude:
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
 
-#github: [metadata]
+github: [metadata]
