@@ -3,12 +3,14 @@ lang: en
 description: SeongHyeonP GitHub Pages
 
 ## remote method ##
-remote_theme: rundocs/jekyll-rtd-theme
+#remote_theme: rundocs/jekyll-rtd-theme
 
-#debug:
-#   compress: false
-#   dist: false
-#   shortcodes: true
+theme: jekyll-rtd-theme
+
+debug:
+  compress: false
+  dist: true
+  shortcodes: true
 
 readme_index:
   with_frontmatter: true
