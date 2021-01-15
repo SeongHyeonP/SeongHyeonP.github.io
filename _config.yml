@@ -22,7 +22,7 @@ title: SeongHyeon
 email: tjdeorkfl95@naver.com
 description: "# 개발 노트"
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://SeongHyeonP.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://seonghyeonp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: SeongHyeon
 highlighter: rouge
 svg:
