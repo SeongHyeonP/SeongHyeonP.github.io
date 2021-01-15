@@ -4,7 +4,7 @@
     "palette": "blue",
     "header": {
         "title": "SeongHyeon",
-        "tagline": "Header Tagline",
+        "tagline": "개발 일지",
         "profile_img": "images/avatar.png",
         "profile_img_alt": "Author avatar",
         "background": "dark",
