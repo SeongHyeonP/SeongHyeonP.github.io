@@ -111,8 +111,13 @@ code {
 	padding-inline-start: 0px;
 }
 
+.sidebar-brand {
+	text-align: center;
+}
+
 .sidebar-brand > a {
-	font-size: 300%;
+	text-decoration: none;
+	font-size: 250%;
 	font-family: 'Gelasio';
 	color: #fff;
 }
@@ -139,6 +144,7 @@ code {
 }
 
 a.nav-item {
+	text-decoration: none;
 	font-size: 120%;
 	font-family: "Noto Sans";
 	text-transform: capitalize;
