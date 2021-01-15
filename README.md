@@ -1,97 +1,78 @@
-# SeongHyeonP main Page
+# ✨ blog ✨
 
-Just another documentation theme compatible with GitHub Pages
+<img src="https://themes.stackbit.com/images/fresh-demo-1024x768.png" width="600">
 
-## What it does?
+This is a [Jekyll](https://jekyllrb.com) site using Git as a [CMS](https://en.wikipedia.org/wiki/Content_management_system). It was created with [Stackbit](https://www.stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) in under a minute.
 
-This theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphinx_rtd_theme) and refactored with:
+You can [create a site](https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-fresh&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) just like this one, or explore some variations. How about a different:
 
-- [@primer/css](https://github.com/primer/css)
-- [github-pages](https://github.com/github/pages-gem) ([dependency versions](https://pages.github.com/versions/))
+<details>
+        <summary>🎨 &nbsp;<strong>Look</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-libris&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">A documentation theme</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-diy&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">A &quot;do it yourself&quot; Stackbit theme</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-ampersand&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Medium inspired blogging theme</a></li>
+                </ul>
+</details>
 
-## Quick start
+<details>
+        <summary>✏️ &nbsp;<strong>CMS</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?cms=netlifycms&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Netlify CMS</a></li>
+                <li><a href="https://app.stackbit.com/create?cms=contentful&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Contentful</a></li>
+                <li><a href="https://app.stackbit.com/create?cms=forestry&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Forestry</a></li>
+                </ul>
+</details>
 
-```yml
-remote_theme: rundocs/jekyll-rtd-theme
-```
+<details>
+        <summary>⚙️ &nbsp;<strong>Static site generator</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?ssg=gatsby&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Gatsby</a></li>
+                <li><a href="https://app.stackbit.com/create?ssg=nextjs&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Next.js</a></li>
+                <li><a href="https://app.stackbit.com/create?ssg=hugo&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Hugo</a></li>
+                </ul>
+</details>
 
-You can [generate](https://github.com/rundocs/starter-slim/generate) with the same files and folders from [rundocs/starter-slim](https://github.com/rundocs/starter-slim/)
+## Develop Locally
 
-## Usage
+1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 
-Documentation that can guide how to create with Github pages, please refer to [rundocs.io](https://rundocs.io) for details
+1. Install Jekyll and Bundler:
 
-## Features
+        gem install jekyll bundler
 
-- Shortcodes (Toasts card, mermaid)
-- Pages Plugins (emoji, gist, avatar, mentions)
-- Auto generate sidebar
-- [Attribute List Definitions](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions) (Primer/css utilities, Font Awesome 4)
-- Service worker (caches)
-- SEO (404, robots.txt, sitemap.xml)
-- Canonical Link (Open Graph, Twitter Card, Schema data)
+1. Install dependencies from Gemfile:
 
-## Options
+        bundle install
 
-| name          | default value        | description       |
-| ------------- | -------------------- | ----------------- |
-| `title`       | repo name            |                   |
-| `description` | repo description     |                   |
-| `url`         | user domain or cname |                   |
-| `baseurl`     | repo name            |                   |
-| `lang`        | `en`                 |                   |
-| `direction`   | `auto`               | `ltr` or `rtl`    |
-| `highlighter` | `rouge`              | Cannot be changed |
 
-```yml
-# folders sort
-readme_index:
-  with_frontmatter: true
 
-meta:
-  key1: value1
-  key2: value2
-  .
-  .
-  .
+1. Build the site and start the Jekyll local development server
 
-google:
-  gtag:
-  adsense:
+        bundle exec jekyll serve --livereload
 
-mathjax: # this will prased to json, default: {}
+1. Open [http://localhost:4000](http://localhost:4000) in the browser
 
-mermaid:
-  custom:     # mermaid link
-  initialize: # this will prased to json, default: {}
+1. 🎉
 
-scss:   # also _includes/extra/styles.scss
-script: # also _includes/extra/script.js
+## Editing Content
 
-translate:
-  # shortcodes
-  danger:
-  note:
-  tip:
-  warning:
-  # 404
-  not_found:
-  # copyright
-  revision:
-  # search
-  searching:
-  search:
-  search_docs:
-  search_results:
-  search_results_found: # the "#" in this translate will replaced with results size!
-  search_results_not_found:
+To start editing your site, you can edit the included Markdown files.
 
-plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
-```
+Alternatively, you can use the free on-page editing experience provided by the [Stackbit Studio](https://stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes).
 
-## The license
+[![](https://i3.ytimg.com/vi/zd9lGRLVDm4/hqdefault.jpg)](https://stackbit.link/project-readme-lead-video)
 
-The theme is available as open source under the terms of the MIT License
+Here's a few resources to get you started:
+
+- 📺 &nbsp; [Editing Content](https://stackbit.link/project-readme-editing-video)
+- 📺 &nbsp; [Adding, Reordering and Deleting Items](https://stackbit.link/project-readme-adding-video)
+- 📺 &nbsp; [Collaboration](https://stackbit.link/project-readme-collaboration-video)
+- 📺 &nbsp; [Publishing](https://stackbit.link/project-readme-publishing-video)
+- 📚 &nbsp; [Stackbit Documentation](https://stackbit.link/project-readme-documentation)
+
+If you need a hand, make sure to check the [Stackbit support page](https://stackbit.link/project-readme-support).
+
+## Colophon
+
+Generated at `2021-01-15T00:35:52.022Z` by Stackbit version `0.3.42`.
