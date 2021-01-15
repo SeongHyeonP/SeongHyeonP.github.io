@@ -36,6 +36,10 @@ plugins:
 category_dir: category/
 tag_dir: tag/
 
+# Disqus
+disqus: False
+disqus_shortname: SeongHyeon # replace with your disqus username
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
