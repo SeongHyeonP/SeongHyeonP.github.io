@@ -64,12 +64,15 @@ footer:
     rel="noopener">Stackbit</a>. Create yours <a
     href="https://app.stackbit.com/create?theme=fresh&utm_source=deployed-footer"
     target="_blank" rel="noopener">now</a>
+
 sass:
   indentWidth: 4
   style: nested
   precision: 10
+
 plugins:
   - jekyll-menus
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -84,4 +87,4 @@ exclude:
   - stackbit-build.sh
   - stackbit-pull.js
 
-  github: [metadata]
+github: [metadata]
