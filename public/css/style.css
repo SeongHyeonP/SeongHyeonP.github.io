@@ -113,6 +113,7 @@ code {
 
 .sidebar-brand {
 	text-align: center;
+	margin: 10px;
 }
 
 .sidebar-brand > a {
@@ -133,6 +134,12 @@ code {
 
 .sidebar-nav {
 	margin-top: 20px;
+}
+
+.gitlogo {
+	width: 35px;
+	height: auto;
+	margin-bottom: 30px;
 }
 
 .nav-title {
@@ -156,6 +163,10 @@ a.nav-item:hover { color: #777; }
 .badge { font-size: 70%; }
 .badge::before { content: "("; }
 .badge::after { content: ")"; }
+
+#disqus_thread {
+	margin-top: 200px;
+}
 
 .post-list > li {
 }
@@ -293,7 +304,8 @@ footer {
 }
 
 .sidebar-footer {
-	margin-top: 80px;
+	margin-top: 150px;
+	text-align: center;
 	font-size: 0.75em;
 	font-weight: lighter;
 	font-family: "Roboto";
